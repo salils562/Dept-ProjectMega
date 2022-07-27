@@ -1,0 +1,39 @@
+.items{
+    margin-bottom: 30px;
+}
+.items h3{
+    font-size: 1.2rem;
+}
+.options{
+    display: flex;
+}
+.options .blocks{
+    border: 2px solid green;
+    padding: 10px;
+    margin-right: 3rem;
+    margin-top: 5px;
+    width: 7rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.blocksCorr{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+.blocksWrong{
+    background-color: red;
+    font-weight: bold;
+}
+footer{
+    height: 100px;
+    background-color: black;
+}
+@media only screen and (max-width: 500px){
+    .options{
+        flex-wrap: wrap;
+    }
+}
