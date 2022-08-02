@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: url('..\\images\\fancy-pants.jpg');
+    color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container {
+    width: 50%;
+    word-spacing: 3px;
+    font-size: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container p {
+    margin: 8px;
+}
+.boxes {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box span {
+    font-weight: bold;
+    border: 2px solid greenyellow;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    padding: 9px;
+    margin-bottom: 8px;
+}
+
+.items {
+    min-height: 200px;
+    min-width: 100px;
+    max-width: 150px;
+    border: 5px solid rgb(69, 21, 165);
+    border-end-end-radius: 30px;
+    border-end-start-radius: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top: none;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items p {
+    margin: 5px;
+    height: 30px;
+    padding: 4px;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+.alignborder {
+    border: 2px dashed black;
+    border-radius: 8px;
+}
+
+.fadeout {
+    display: none;
+}
+
+.dragoverColor {
+    background-color: aqua;
+}
+#buttoninside{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#btn {
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    font-size: 1rem;
+    background-color: rgb(0, 213, 255);
+    
+}
+#btn:hover{
+    background: green;
+}
+/* Media queries */
+@media only screen and (max-width:944px){
+.box{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 500px){
+.container{
+    width: 80%;
+}
+}
