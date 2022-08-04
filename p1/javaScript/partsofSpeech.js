@@ -13,17 +13,22 @@ let cont = document.getElementById('con');
 let para = "Hi! my name is Moaegan and I work as an English instructor. Aside from teaching, I also do hosting and vlogging I may not excel in writing, but I am an online writer too. It is nice to meet you.";
 let submitButton=document.getElementById('btn');
 let text = "";
+let score=document.getElementById('grade');
+let outof=document.getElementById('outof');
+let outt=0;
 for (let i = 0; i < para.length; i++) {
     if (para[i] === ' ') {
         cont.innerHTML += `<p class="words" draggable="true">${text}</p> `;
         text = "";
-        continue;
+        outt+=1;
     }
     else {
         text += para[i];
     }
 }
 cont.innerHTML+=`<p class="words" draggable="true">${text}</p> `;
+outt+=1;
+outof.innerText=outt;
 let worditems=document.getElementsByClassName('words');
 let appendd;
 Array.from(worditems).forEach((element)=>{
@@ -55,12 +60,14 @@ audio.play();
 });
 });
 submitButton.addEventListener('click',()=>{
+ let totScore=0;   
  let ansItems=document.getElementsByClassName('items');
  let j=0;
  for(let key in answer1){
     for(let i=0;i<(ansItems[j].childElementCount);i++){
         if(answer1[key].includes(((ansItems[j].children[i]).innerText).toLowerCase())){
           ansItems[j].children[i].style.backgroundColor='green';
+          totScore+=1;
         }
         else{
             ansItems[j].children[i].style.backgroundColor='red';
@@ -68,4 +75,5 @@ submitButton.addEventListener('click',()=>{
     }
     j++;
 }
+score.innerText=totScore;
 });
