@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
-*{
+
+* {
     font-family: 'Baloo Bhai 2', cursive;
     scroll-behavior: smooth;
-   
+
 }
-body{
+
+body {
     background: rgba(95, 201, 246, 0.808);
-    
+
 }
-#greet{
+
+#greet {
     margin-top: 50px;
     text-align: center;
     width: 50%;
@@ -18,55 +21,67 @@ body{
     font-weight: bold;
     height: 150px;
 }
-.imgs{
-  height: 450px;
-  width: 100%;
+
+.imgs {
+    height: 450px;
+    width: 100%;
 }
-.mission{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+.mission {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     padding-top: 70px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.det{
+
+.det {
     width: 50%;
 }
-.mission img,.det{
+
+.mission img,
+.det {
     margin: 10px 50px;
 }
-.ill2{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+.ill2 {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 80px;
-   
+    
+
 }
-.ill2 .items2{
-   margin: 10px;
-   
+
+.ill2 .items2 {
+    margin: 10px;
+
 }
-#teachill{
+
+#teachill {
     filter: drop-shadow(8px 8px 10px rgb(9, 207, 190));
     height: 350px;
     width: 350px;
     border-radius: 50%;
-    
+
 }
-#thesis{
+
+#thesis {
     height: 25vw;
     width: 25vw;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.cards .items{
+
+.cards .items {
     border-radius: 5px;
     margin: 0px 20px;
     padding: 10px;
@@ -76,16 +91,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.cards .items img{
+
+.cards .items img {
     width: 25vw;
     height: 20vw;
     border-radius: 10px;
-    
+
 }
-.details{
-    position: relative;  
+
+.details {
+    position: relative;
     width: 25vw;
     height: 15vw;
     opacity: 100;
@@ -97,71 +114,100 @@ body{
     text-align: center;
 
 }
-.details p{
+
+.details p {
     margin: 5px 0px;
 }
-footer{
+
+footer {
     background-color: rgb(30, 29, 29);
     height: 50px;
     color: white;
     text-align: center;
 }
-footer p{
+
+footer p {
     padding-top: 20px;
 }
-.spacing{
-    font-size: 1.2rem; word-spacing: 3px;
+
+.spacing {
+    font-size: 1.2rem;
+    word-spacing: 3px;
 }
-@media only screen and (max-width: 700px){
-#greet{
-    font-size: 1.5rem;
-    height: 150px;
-    width: 70%;
+
+@media only screen and (max-width: 700px) {
+    #greet {
+        font-size: 1.5rem;
+        height: 150px;
+        width: 70%;
+    }
+
+    .mission img,
+    .det {
+        margin: 10px 30px;
+    }
+
+    #teachill {
+        height: 200px;
+        width: 200px;
+    }
 }
-.mission img,.det{
-    margin: 10px 30px;
-}
-#teachill{
-    height: 200px;
-    width: 200px;
-}
-}
-@media only screen and (max-width: 400px){
-    #teachill{
+
+@media only screen and (max-width: 400px) {
+    #teachill {
         height: 200px;
         width: 200px;
         margin-bottom: 40px;
         padding-top: 10px;
-    }   
-    .spacing{
+    }
+
+    .spacing {
         font-size: 1rem;
         word-spacing: 1px;
         text-align: center;
     }
-    .det{
+
+    .det {
         width: auto;
     }
-    
-#greet{
-    font-size: 1.4rem;
-    height: 150px;
-    width: auto;
-    padding: 0px 10px;
-}
-.cards{
-    padding: 10px;
-    flex-direction: column;
-}
-.cards .items{
-    width: auto;
-    margin: 5px 5px;
-}
-.details{
-    height: auto;
-    width: auto;
-}
-.cards .items img{
-    width: 200px;
-    height: 200px;
-}
+
+    #greet {
+        font-size: 1.4rem;
+        height: 150px;
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    .cards {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .cards .items {
+        width: auto;
+        margin: 5px 5px;
+    }
+
+    .details {
+        height: auto;
+        width: auto;
+    }
+
+    .cards .items img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ill2 {
+        padding: 20px;
+        
+    }
+
+    .ill2 .items2 p {
+        text-align: left;
+    }
+
+    .items2 img {
+        display: none;
+    }
 }

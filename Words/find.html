@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Learning-Words</title>
+    <style>
+        body {
+            background: url('images\\background.png');
+        }
+    </style>
+    <link rel="stylesheet" href="css//find.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-around align-items-center first-con mt-3">
+        <h3>Find and correct the mistakes.<br/>Click on the wrong words in the given sentences</h3>
+        <div class="score">
+            <p style="display:inline-block; margin-right: 8px; font-size: 2rem;">Your Score: </p><b id="score"
+                style="font-size: 2rem;">0</b>
+        </div>
+    </div>
+    <div class="d-flex justify-content-around" id="header">
+        <div class="questions" id="questions">
+            <p>a) It was so <span class='innerArray'>nasty</span> of him to help that old lady.</p>
+            <p>b) Jimmy's so <span class='innerArray'>reliable</span>. He's never on time for anything.</p>
+            <p>c) If you're <span class='innerArray'>mean</span>, you give people things.</p>
+            <p>d) I'm <span class='innerArray'>lazy</span>. I work very hard all the time.</p>
+        </div>
+        <div class="asking" id="ask">
+            <img src="images//askingI.jpg" id="asking" alt="this is asking illustration">
+            <p style="font-size: 1.4rem;">What could be the correct word instead of<br /> word <span
+                    id="correct"></span></p>
+            <ol type="i" id="option">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <input type="text" placeholder="Enter the word here" id="answer">
+            <button class="btn btn-primary btn-sm mt-2" id="submit">Submit</button>
+            <button class="btn btn-primary btn-sm mt-2 mx-2" id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="javaScript/find.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
