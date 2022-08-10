@@ -2,6 +2,9 @@
 let dancingImage = document.getElementById('image');
 let blocks = document.getElementsByClassName('blocks');
 let middleElement = document.getElementsByClassName('item-5');
+let correctBuzzer=new Audio('music//correctBuzzer.mp3');
+let soundopo=new Audio('music//oppos.mp3');
+let soundsimi=new Audio('music//similarmode.mp3');
 let count = 0;
 let count2 = 0;
 let presentKey = null;
@@ -37,6 +40,7 @@ oppositeButton.addEventListener('click', () => {
     document.getElementById('ask-user').innerText = 'opposite mode set';
     similarButton.className = 'btn btn-primary mx-4 my-2';
     oppositeButton.className = 'btn btn-success mx-4 my-2';
+    soundopo.play();
     ResetColors();
     Array.from(blocks).forEach((element) => {
         element.addEventListener('click', () => {
@@ -67,6 +71,7 @@ similarButton.addEventListener('click', () => {
     document.getElementById('ask-user').innerText = 'similar mode set';
     oppositeButton.className = 'btn btn-primary mx-4 my-2';
     similarButton.className = 'btn btn-success mx-4 my-2';
+    soundsimi.play();
     ResetColors();
     Array.from(blocks).forEach((element) => {
         element.addEventListener('click', () => {
@@ -104,6 +109,7 @@ function checkCountOpposite() {
     Array.from(middleElement).forEach((element) => {
         if (count === 2 && presentKey === (element.innerText).toLowerCase()) {
             count = 0;
+            correctBuzzer.play();
             dancingImage.style.width = '150px';
             dancingImage.style.height = '150px';
             setTimeout(() => {
