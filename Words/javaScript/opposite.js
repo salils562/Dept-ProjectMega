@@ -7,7 +7,7 @@ let soundopo=new Audio('music//oppos.mp3');
 let soundsimi=new Audio('music//similarmode.mp3');
 let count = 0;
 let count2 = 0;
-let presentKey = null;
+let presentKey;
 let opposite = {
     rude: ['nice', 'polite'],
     honest: ['dis-honest', 'biased'],
@@ -17,7 +17,7 @@ let opposite = {
     reliable: ['un-reliable', 'untrustworthy'],
     talkative: ['quiet', 'silent'],
     kind: ['cruel', 'un-kind'],
-    unfriendly: ['friendly', 'favorable']
+    "un-friendly": ['friendly', 'favorable']
 }
 let similar = {
     rude: ['ungracious', 'impolite'],
@@ -28,7 +28,7 @@ let similar = {
     reliable: ['valid', 'dodgy'],
     talkative: ['garrulous', 'chatty'],
     kind: ['loving', 'gentle'],
-    unfriendly: ['combative', 'hostile']
+    "un-friendly": ['combative', 'hostile']
 }
 let select = {};
 let oppositeButton = document.getElementById('opposite-mode');
@@ -37,6 +37,7 @@ let similarButton = document.getElementById('similar-mode');
 // Event listeners
 oppositeButton.addEventListener('click', () => {
     select = opposite;
+    count=0;
     document.getElementById('ask-user').innerText = 'opposite mode set';
     similarButton.className = 'btn btn-primary mx-4 my-2';
     oppositeButton.className = 'btn btn-success mx-4 my-2';
@@ -68,6 +69,7 @@ oppositeButton.addEventListener('click', () => {
 
 similarButton.addEventListener('click', () => {
     select = similar;
+    count2=0;
     document.getElementById('ask-user').innerText = 'similar mode set';
     oppositeButton.className = 'btn btn-primary mx-4 my-2';
     similarButton.className = 'btn btn-success mx-4 my-2';
@@ -107,14 +109,14 @@ function ResetColors() {
 // Count check functions
 function checkCountOpposite() {
     Array.from(middleElement).forEach((element) => {
-        if (count === 2 && presentKey === (element.innerText).toLowerCase()) {
+        if (count === 2 && (presentKey === (element.innerText).toLowerCase())) {
             count = 0;
             correctBuzzer.play();
-            dancingImage.style.width = '150px';
-            dancingImage.style.height = '150px';
+            dancingImage.style.width='150px';
+            dancingImage.style.height='150px';
             setTimeout(() => {
-                dancingImage.style.width = '0px';
-                dancingImage.style.height = '0px';
+                dancingImage.style.width='0px';
+                dancingImage.style.height='0px';
             }, 3000);
         }
     });
@@ -122,13 +124,14 @@ function checkCountOpposite() {
 }
 function checkCountSimilar() {
     Array.from(middleElement).forEach((element) => {
-        if (count2 === 2 && presentKey === (element.innerText).toLowerCase()) {
+        if (count2 === 2 && (presentKey === (element.innerText).toLowerCase())) {
             count2 = 0;
-            dancingImage.style.width = '150px';
-            dancingImage.style.height = '150px';
+            correctBuzzer.play();
+            dancingImage.style.width='150px';
+            dancingImage.style.height='150px';
             setTimeout(() => {
-                dancingImage.style.width = '0px';
-                dancingImage.style.height = '0px';
+                dancingImage.style.width='0px';
+                dancingImage.style.height='0px';
             }, 3000);
         }
     });
