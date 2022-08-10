@@ -29,7 +29,7 @@ document.getElementById('asking').style.width='250px';
 });
 });
 submitButton.addEventListener('click',()=>{
-if(correct.includes(answer.value)){
+if(correct.includes((answer.value).toLowerCase())){
     for(let i=0;i<correct.length;i++){
         if(correct[i]===answer.value){
             arraywords[i].innerText=answer.value;

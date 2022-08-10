@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Words - Opposite</title>
+  </head>
+  <link rel="stylesheet" href="css//opposite.css">
+  <body>
+    <div id="dancing">
+        <img src="images//dacingShichain.gif" id="image">
+    </div>
+        <div class="container mb-5">
+            <h1>Playing with words</h1>
+        </div>
+        <div class="container mb-5">
+            <h5>Before playing The Game Let's see: How to play? the game</h5>
+            <span style="font-size: 1.2rem;">Click on the button &rarr;</span>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                See Rules:
+              </button>
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header bg-dark text-light">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">How to play ?</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: white;"></button>
+                </div>
+                <div class="offcanvas-body offbody">
+                  <div id="list-of-rules">
+                    <ul>
+                        <li>There are total 4-words in 4-side boxes</li>
+                        <li>Among 4-words , two words are similar and two are oppsite</li>
+                        <li>You have to select any one Mode : <b>Similar mode</b> or <b>Opposite mode</b></li>
+                        <li><b>Similar Mode</b>: The words that are similar to given word will be correct</li>
+                        <li><b>Oppsite Mode</b>: The words that are oppsite to given word will be correct</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="select-mode container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="ask-user">
+                      Select Mode
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark text-light">
+                      <button class="btn btn-primary mx-4 my-2" id="opposite-mode">Opposite Mode</button>
+                      <button class="btn btn-primary mx-4 my-2" id="similar-mode">Similar Mode</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <section class="container">
+        <div id="cont-1">
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Nice</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Impolite</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="rude">Rude</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Polite</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Ungracious</div>
+            </div>
+           </div>
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Dis-honest</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Fair</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="honest">Honest</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Biased</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">genunie</div>
+            </div>
+           </div>
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Aggreable</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Nice</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="nasty">Nasty</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Unpleasant</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Rude</div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+
+        <section class="container">
+            <div id="cont-2">
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Active</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Indolent</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="lazy">Lazy</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">In-active</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Hard-working</div>
+            </div>
+           </div>
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Intelligent</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Dumb</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="stupid">Stupid</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Fool</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Clever</div>
+            </div>
+           </div>
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Un-reliable</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Dodgy</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="reliable">Reliable</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Valid</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Untrustworthy</div>
+            </div>
+           </div>
+           </div>
+    </section>
+        <section class="container">
+            <div id="cont-3">
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Quiet</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Chatty</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="talkative">Talkative</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Garrulous</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Silent</div>
+            </div>
+           </div>
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Cruel</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Un-kind</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="kind">Kind</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Gentle</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Loving</div>
+            </div>
+           </div>
+        <div class="gridlayout">
+            <div class="items">
+             <div class="blocks item-1">Hostile</div>
+             <div class="blocks item-2"></div>
+             <div class="blocks item-3">Favorable</div>
+            </div>
+            <div class="items">
+                <div class="blocks item-4"></div>
+                <div class="blocks item-5" id="un-friendly">Un-friendly</div>
+                <div class="blocks item-6"></div>
+            </div>
+            <div class="items">
+                <div class="blocks item-7">Friendly</div>
+                <div class="blocks item-8"></div>
+                <div class="blocks item-9">Combative</div>
+            </div>
+           </div>
+           </div>
+    </section>
+    <div class="container my-3 text-center text-capitalize next">
+        <h3><a href="find.html">Next exercise &rarr;</a></h3>
+    </div>
+    <script src="javaScript//opposite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
