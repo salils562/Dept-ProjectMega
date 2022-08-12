@@ -10,6 +10,25 @@ background: linear-gradient(90deg, rgba(172,117,255,0.8888597675398284) 0%, rgba
     background: rgb(181,174,238);
     background: radial-gradient(circle, rgba(181,174,238,1) 0%, rgba(148,187,233,1) 100%);
 }
+.back-to-home{
+    margin: 5px 10px;
+    border: 2px solid black;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0px 5px;
+    width: 100px;
+    height: 30px;
+}
+.back-to-home a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.back-to-home:hover{
+    background-color: green;
+    color: white !important;
+}
 #list-of-rules ul li{
 margin: 15px 0;
 color: rgb(0, 0, 0);

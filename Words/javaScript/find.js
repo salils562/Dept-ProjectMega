@@ -31,15 +31,15 @@ document.getElementById('asking').style.width='250px';
 submitButton.addEventListener('click',()=>{
 if(correct.includes((answer.value).toLowerCase())){
     for(let i=0;i<correct.length;i++){
-        if(correct[i]===answer.value){
-            arraywords[i].innerText=answer.value;
+        if(correct[i]===(answer.value).toLowerCase()){
+            arraywords[i].innerText=answer.value.toLowerCase();
             arraywords[i].style.backgroundColor='green';
         }
     }
     let askingimg=document.getElementById('asking');
     askingimg.src='images//menher-congrats.gif';
     answer.value="";
-    submitButton.className='btn btn-success btn-sm';
+    submitButton.className='btn btn-success btn-sm mt-2';
     scorecount+=1;
     score.innerText=scorecount;
     correctBuzzer.play();
@@ -48,7 +48,7 @@ else{
     let askingimg=document.getElementById('asking');
     askingimg.src='images//menher-no.gif';
     answer.value="";
-    submitButton.className='btn btn-success btn-sm';
+    submitButton.className='btn btn-success btn-sm mt-2 mx-2';
     wrongBuzzer.play();
 }
 });

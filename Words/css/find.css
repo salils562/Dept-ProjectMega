@@ -57,6 +57,21 @@
     padding: 2px 4px;
 }
 
+#back {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+#back a {
+    text-decoration: none;
+    color: white;
+}
+#back:hover{
+    background-color: green !important;
+    color: white !important;
+}
 @media only screen and (max-width: 700px) {
     .questions {
         width: 80%;
