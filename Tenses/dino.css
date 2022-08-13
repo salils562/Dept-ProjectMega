@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=DynaPuff:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.next-exercise{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+.next-exercise a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 136, 255);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.next-exercise a:hover{
+    background-color: white;
+}
+.questions {
+    background-color: aqua;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questions p {
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'DynaPuff', cursive;
+}
+.questions p span{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Dino - obstacle css */
+.dino {
+    position: absolute;
+    background-image: url(images/dino.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 20px;
+    width: 20vw;
+    height: 15vw;
+    animation: takeBreadth 1s linear infinite;
+}
+
+.obstacle {
+    position: absolute;
+    background-image: url(images/stone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10vw;
+    bottom: 5px;
+    width: 9vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.obstacle p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+.animate-dino {
+    animation: aniDino 1s linear;
+}
+
+.animate-obstacle {
+    animation: aniObs 4s linear infinite;
+}
+@keyframes takeBreadth{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes aniDino {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 20vw;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes aniObs {
+    0% {
+        right: -2vw;
+    }
+
+    100% {
+        right: 120vw;
+    }
+}

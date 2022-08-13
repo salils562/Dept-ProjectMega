@@ -1,11 +1,11 @@
 let answer1={
     noun: ['name','moaegan','instructor.','teaching,','hosting','vlogging','writing,','writer'],
     pronoun:['i','it','you.'],
-    preposition: ['as','in','to'],
+    preposition: ['as','in','to','from'],
     conjuncion: ['and','but'],
-    verb: ['is','work','do','may','excel','am','is','meet'],
+    verb: ['is','work','do','may','excel','am','is','meet','am'],
     adverb:['also','not','aside'],
-    adjective: ['an','english','online','too.','nice'],
+    adjective: ['an','english','online','too.','nice','my'],
     interjection: ['hi!']
 }
 let audio=new Audio('music/popsound.mp3');

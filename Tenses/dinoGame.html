@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenses - DinoGame</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="dino.css">
+</head>
+
+<body>
+    <div class="next-exercise">
+        <p><a href="exercise1.html">Next exercise &rarr;</a></p>
+    </div>
+    <div class="start-icon py-2 mb-1 d-flex justify-content-around bg-dark align-items-center">
+        <div class="buttons">
+            <button class="btn btn-primary btn-sm"><a href="../leaning.html"
+                    style="text-decoration:none;color:white;">&larr; Learning</a></button>
+            <button class="btn btn-primary btn-sm" id="reset">Reset</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                How to play ?
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-capitalize" id="exampleModalLabel">rules of the game</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <li>To start game click on the start button. The bricks will start moving.</li>
+                            <li>You have to collide with the stone with correct answer.</li>
+                            <li>Jump over stones with the wrong answers.</li>
+                            <li>Click on the next button for attempting next question.</li>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 class="text-capitalize text-center" style="font-size: 2rem;color: rgb(0, 85, 255);">Welcome to the dino game
+        </h4>
+        <div style="color: white;">Your score is: <b id="score" style="font-size: 1.2rem;">0</b></div>
+    </div>
+    <div class="container text-center">
+        <div class="questions"></div>
+        <button class="btn btn-primary btn-sm mx-3" id="next">Next Question &rarr;</button>
+        <button class="btn btn-primary btn-sm" id="start">Start</button>
+    </div>
+    <div class="dino-class">
+        <div class="dino" id="dino"></div>
+        <div class="obstacle" id="obstacle">
+            <p></p>
+        </div>
+    </div>
+    <script src="dino.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>

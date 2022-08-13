@@ -48,7 +48,7 @@ button.addEventListener('click', (e) => {
     button.classList.remove('btn-primary');
     button.classList.add('btn-success');
     Array.from(inputs).forEach((element, index) => {
-        if (element.value === ans1[index]) {
+        if ((element.value).toLowerCase() === ans1[index]) {
             element.classList.add('inputsuccess');
             element.classList.remove('inputfailure');
         }
@@ -63,7 +63,7 @@ button2.addEventListener('click',(e)=>{
   button2.classList.remove('btn-primary');
   button2.classList.add('btn-success');
   Array.from(inputs2).forEach((element,index)=>{
-   if(element.value===ans2[index]){
+   if((element.value).toLowerCase()===ans2[index]){
     element.classList.add('inputsuccess');
     element.classList.remove('inputfailure');
    }
@@ -78,7 +78,7 @@ button3.addEventListener('click',(e)=>{
   button3.classList.remove('btn-primary');
   button3.classList.add('btn-success');
   Array.from(inputs3).forEach((element,index)=>{
-   if(element.value===ans3[index]){
+   if((element.value).toLowerCase()===ans3[index]){
     element.classList.add('inputsuccess');
     element.classList.remove('inputfailure');
    }

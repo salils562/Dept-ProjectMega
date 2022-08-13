@@ -78,8 +78,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: auto;
-
 }
 
 .cards .items {
@@ -142,9 +140,6 @@ footer p {
         height: 150px;
         width: 70%;
     }
-    .cards{
-        overflow: auto;
-    }
     .details{
         width: auto;
         height: auto;
@@ -185,9 +180,8 @@ footer p {
         padding: 0px 10px;
     }
 
-    .cards {
-       overflow: auto;
-       scroll-behavior: smooth;
+    .cards{
+        flex-direction: column;
     }
     .cards .items {
         width: auto;
