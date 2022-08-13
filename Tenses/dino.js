@@ -137,9 +137,9 @@ let controlKeys=document.getElementsByClassName('control-keys');
 Array.from(controlKeys).forEach((element)=>{
 element.addEventListener('click',()=>{
 if(element.id==='up'){
-    dino.classList.add('animate-dino');
+    dino.classList.add('animate-dino-mobile');
     setTimeout(() => {
-        dino.classList.remove('animate-dino');
+        dino.classList.remove('animate-dino-mobile');
     }, 1000);
 }
 else if(element.id==='left'){

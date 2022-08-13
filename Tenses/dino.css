@@ -84,7 +84,9 @@ body {
 .animate-dino {
     animation: aniDino 1s linear;
 }
-
+.animate-dino-mobile{
+    animation: aniDinoMobile 1s linear;
+}
 .animate-obstacle {
     animation: aniObs 4s linear infinite;
 }
@@ -112,7 +114,17 @@ body {
         bottom: 0;
     }
 }
-
+@keyframes aniDinoMobile{
+    0%{
+        bottom: 260px;
+    }
+    50%{
+        bottom: 350px;
+    }
+    100%{
+        bottom: 260px;
+    }
+}
 @keyframes aniObs {
     0% {
         right: -2vw;
@@ -159,6 +171,12 @@ body{
     font-size: 1rem;
 
 }
+.dino{
+    bottom: 260px;
+}
+.obstacle{
+    bottom: 260px;
+}
 .next-exercise{
     right: 0px;
     top: 130px;
@@ -169,6 +187,14 @@ body{
 }
 .mobile-controls{
     visibility: visible;
-    top: 50vh;
+    top: 80vh;
+}
+.obstacle p{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: normal;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
 }
 }
