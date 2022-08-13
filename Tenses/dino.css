@@ -122,3 +122,53 @@ body {
         right: 120vw;
     }
 }
+.mobile-controls{
+    visibility: hidden;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 15px;
+    left: 15px;
+    top: 70px;
+}
+.control-keys{
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-right{
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 500px){
+body{
+    background: black;
+}    
+.questions{
+    width: auto;
+    padding: 0px 5px;
+}
+.questions p{
+    font-size: 1rem;
+
+}
+.next-exercise{
+    right: 0px;
+    top: 130px;
+}
+.next-exercise a{
+    padding: 4px;
+    font-size: 0.8rem;
+}
+.mobile-controls{
+    visibility: visible;
+    top: 50vh;
+}
+}

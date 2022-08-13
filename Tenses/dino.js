@@ -131,3 +131,24 @@ setInterval(() => {
         }
     }
 }, 100);
+
+// mobile controls
+let controlKeys=document.getElementsByClassName('control-keys');
+Array.from(controlKeys).forEach((element)=>{
+element.addEventListener('click',()=>{
+if(element.id==='up'){
+    dino.classList.add('animate-dino');
+    setTimeout(() => {
+        dino.classList.remove('animate-dino');
+    }, 1000);
+}
+else if(element.id==='left'){
+    let moveLeft = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
+    dino.style.left = moveLeft - 20 + 'px';
+}
+else if(element.id==='right'){
+    let moveRight = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
+    dino.style.left = moveRight + 20 + 'px';
+}
+});
+});
