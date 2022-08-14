@@ -113,25 +113,29 @@ let cheaker=setInterval(() => {
             getsnap.innerHTML = obstacle.children[0].innerText;
             getsnap.style.backgroundColor = 'green';
             obstacle.classList.remove('animate-obstacle');
-            start.disabled=false;
-            start.className="btn btn-primary btn-sm";
             stopOption=true;
             i=4;
             scoreReal+=1;
             score.innerText=scoreReal;
             correct.play();
             clearInterval(cheaker)
+            setTimeout(()=>{
+                start.disabled = false;
+                start.className = "btn btn-primary btn-sm";
+            },2000);
         }
         else {
             obstacle.classList.remove('animate-obstacle');
             obstacle.children[0].style.backgroundColor = 'red';
-            start.disabled = false;
-            start.className = "btn btn-primary btn-sm";
             obstacle.classList.remove('animate-obstacle');
             i=4;
             stopOption=true;
             wrong.play();
             clearInterval(cheaker);
+            setTimeout(()=>{
+                start.disabled = false;
+                start.className = "btn btn-primary btn-sm";
+            },2000);
         }
     }
 }, 100);
