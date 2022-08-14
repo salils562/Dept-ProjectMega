@@ -11,6 +11,16 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+.arrows{
+    display: inline-block;
+    border:2px solid green;
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 3px;
+
+}
 .next-exercise{
     position: absolute;
     top: 80px;
@@ -138,12 +148,9 @@ body {
     visibility: hidden;
     background-color: aqua;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
+    justify-content: space-between;
     border-radius: 15px;
-    left: 15px;
-    top: 70px;
+    margin-top: 300px;
 }
 .control-keys{
     border: 2px solid black;
@@ -187,7 +194,6 @@ body{
 }
 .mobile-controls{
     visibility: visible;
-    top: 80vh;
 }
 .obstacle p{
     font-size: 0.8rem;

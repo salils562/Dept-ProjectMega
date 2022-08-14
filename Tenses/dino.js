@@ -60,6 +60,7 @@ reset.addEventListener('click', () => {
 let stopOption=false;
 // start eventhandling
 start.addEventListener('click', () => {
+    allow();
     stopOption=false;
     obstacle.children[0].style.backgroundColor = null;
     obstacle.children[0].innerText = options[`option${q}`][0];
@@ -98,7 +99,8 @@ document.onkeydown = function (e) {
     }
 }
 // Cheaking hit of obstacle and dino
-setInterval(() => {
+function allow(){
+let cheaker=setInterval(() => {
     let dinox = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
     let dinoy = parseInt(window.getComputedStyle(dino, null).getPropertyValue('bottom'));
     let obstaclex = parseInt(window.getComputedStyle(obstacle, null).getPropertyValue('left'));
@@ -118,6 +120,7 @@ setInterval(() => {
             scoreReal+=1;
             score.innerText=scoreReal;
             correct.play();
+            clearInterval(cheaker)
         }
         else {
             obstacle.classList.remove('animate-obstacle');
@@ -128,10 +131,11 @@ setInterval(() => {
             i=4;
             stopOption=true;
             wrong.play();
+            clearInterval(cheaker);
         }
     }
 }, 100);
-
+}
 // mobile controls
 let controlKeys=document.getElementsByClassName('control-keys');
 Array.from(controlKeys).forEach((element)=>{
