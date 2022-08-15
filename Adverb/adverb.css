@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(images//bgsky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    cursor: url(images\\Aim.cur),pointer;
+    
+}
+.gunman{
+    background-image: url(images//gunman.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 10vw;
+    right: 2vw;
+    height: 12vw;
+    width: 12vw;
+}
+.animate-gunman{
+    animation: gunMan 1s linear infinite;
+
+}
+.ballons-items{
+    position: absolute;
+    bottom: 0px;
+    animation: animateBaloon 10s linear infinite;
+}
+.ballons-items p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 6vw;
+}
+#ballon1{
+    background: url('images/green.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12vw;
+    height: 19vw;
+    left: 50px;
+}
+#ballon2{
+    background: url('images/red.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12vw;
+    height: 19vw;
+    left: 40vw;
+}
+#ballon3{
+    background: url('images/yellow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 19vw;
+    height: 19vw;
+    right: 50px;
+    
+}
+#ballon1 p{
+    left: 4.5vw;
+}
+#ballon2 p{
+left: 3.5vw;
+}
+#ballon3 p{
+left: 9vw;
+}
+@keyframes animateBaloon{
+    0%{
+        bottom: -30vh;
+    }
+    100%{
+       bottom: 100vh;
+    }
+}
+@keyframes gunMan{
+    0%{
+        transform: translate(16px,16px);
+    }
+    100%{
+        right: 2vw;
+    }
+}
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    height: 20vh;
+    width: 20vh;
+    transition: 1s ease-in;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.questions{
+    background-color: #1a83fbd6;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45vw;
+}
+.questions p{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.buttons button{
+    border-radius: 8px;
+    font-weight: bold;
+    height: 30px;
+    width: 140px;
+    margin: 3px;
+    background-image: linear-gradient(rgba(84, 249, 54, 0.813),rgba(221, 29, 99, 0.799));
+}
+.buttons button:hover{
+    background-image: linear-gradient(pink,red);
+    color: white;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10px;
+}
+#reset,#showAlert,#backL{
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: 30px;
+    width: 80px;
+    background-image: linear-gradient(rgba(84, 249, 54, 0.813),rgba(221, 29, 99, 0.799));
+    cursor: pointer;
+}
+#backL a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 923px){  
+footer{
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.main-box{
+    flex-direction: column;
+}
+.reset{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ballons-items p{
+    top: 9vw;
+}
+#ballon1{
+    width: 20vw;
+    height: 35vw;
+    left: 10px;
+}
+#ballon2{
+    width: 22vw;
+    height: 45vw;
+}
+#ballon3{
+    width: 34vw;
+    height: 32vw;
+    right: 13px;
+}
+#ballon1 p{
+    left: 4.5vw;
+}
+#ballon2 p{
+font-size: 1rem;    
+}
+#ballon3 p{
+font-size: 1rem;    
+left: 12vw;
+}
+@keyframes animateBaloon{
+    0%{
+        bottom: 20vh;
+    }
+    100%{
+       bottom: 100vh;
+    }
+}
+
+}
