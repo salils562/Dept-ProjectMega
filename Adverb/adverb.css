@@ -161,6 +161,12 @@ footer{
 .main-box{
     flex-direction: column;
 }
+.gunman{
+    bottom: 73vw;
+    right: 8vw;
+    height: 22vw;
+    width: 22vw;
+}
 .reset{
     margin-left: 50px;
     margin-top: 5px;
@@ -195,7 +201,7 @@ left: 12vw;
 }
 @keyframes animateBaloon{
     0%{
-        bottom: 20vh;
+        bottom: 12vh;
     }
     100%{
        bottom: 100vh;
@@ -203,3 +209,8 @@ left: 12vw;
 }
 
 }
+@media only screen and (max-width: 370px){
+    .gunman{
+        bottom: 84vw;
+    }
+    }
