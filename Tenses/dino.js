@@ -152,11 +152,11 @@ if(element.id==='up'){
 }
 else if(element.id==='left'){
     let moveLeft = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
-    dino.style.left = moveLeft - 20 + 'px';
+    dino.style.left = moveLeft - 40 + 'px';
 }
 else if(element.id==='right'){
     let moveRight = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
-    dino.style.left = moveRight + 20 + 'px';
+    dino.style.left = moveRight + 40 + 'px';
 }
 });
 });

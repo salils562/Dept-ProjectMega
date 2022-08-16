@@ -1,15 +1,15 @@
 // setting variables
 let questions = {
-    question1: "<p>1) She worked <span class='blanks'>______</span> and passed the examination.</p>",
-    question2: "<p>2) We <span class='blanks'>______</span> see a lion.</p>",
-    question3: "<p>3) He narrated the incident in <span class='blanks'>______</span>.</p>",
-    question4: "<p>4) He often comes <span class='blanks'>______</span> to school.</p>",
-    question5: "<p>5) I really feel <span class='blanks'>______</span> about it.</p>",
-    question6: "<p>6) He is <span class='blanks'>______</span> rich.</p>",
-    question7: "<p>7) The journey was <span class='blanks'>______</span> uncomfortable.</p>",
-    question8: "<p>8) The lecture was <span class='blanks'>______</span> boring.</p>",
-    question9: "<p>9) Hardly <span class='blanks'>______</span> had any rest for weeks.</p>",
-    question10: "<p>10) He is getting <span class='blanks'>______</span> day by day.</p>"
+    question1: "1) She worked <span class='blanks'>______</span> and passed the examination.",
+    question2: "2) We <span class='blanks'>______</span> see a lion.",
+    question3: "3) He narrated the incident in <span class='blanks'>______</span>.",
+    question4: "4) He often comes <span class='blanks'>______</span> to school.",
+    question5: "5) I really feel <span class='blanks'>______</span> about it.",
+    question6: "6) He is <span class='blanks'>______</span> rich.",
+    question7: "7) The journey was <span class='blanks'>______</span> uncomfortable.",
+    question8: "8) The lecture was <span class='blanks'>______</span> boring.",
+    question9: "9) Hardly <span class='blanks'>______</span> had any rest for weeks.",
+    question10: "10) He is getting <span class='blanks'>______</span> day by day."
 }
 let options = {
     option1: ['hard', 'hardly', 'hardest'],
@@ -37,7 +37,7 @@ let cheer = new Audio('music/cheer.mp3');
 let girl = document.getElementById('girl');
 // setting variable default values
 let qIter = 1;
-AppendQuestion.innerHTML = questions[`question${qIter}`];
+AppendQuestion.innerHTML=`<p>${questions[`question${qIter}`]}</p>`;
 previousButton.disabled = true;
 Array.from(ballons).forEach((element, index) => {
     element.children[0].innerText = options[`option${qIter}`][index];
@@ -46,7 +46,7 @@ Array.from(ballons).forEach((element, index) => {
 function NextQuestion() {
     if (qIter < 10) {
         qIter++;
-        AppendQuestion.innerHTML = questions[`question${qIter}`];
+        AppendQuestion.innerHTML=`<p>${questions[`question${qIter}`]}</p>`;
         setBallons();
         previousButton.disabled = false;
     }
@@ -58,7 +58,7 @@ function NextQuestion() {
 function PreviousQuestion() {
     if (qIter > 1) {
         qIter--;
-        AppendQuestion.innerHTML = questions[`question${qIter}`];
+        AppendQuestion.innerHTML=`<p>${questions[`question${qIter}`]}</p>`;
         setBallons();
         nextButton.disabled = false;
     }

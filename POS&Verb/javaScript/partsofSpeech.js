@@ -1,5 +1,5 @@
 let answer1={
-    noun: ['name','moaegan','instructor.','teaching,','hosting','vlogging','writing,','writer'],
+    noun: ['name','salil','instructor.','teaching,','hosting','vlogging','writing,','writer'],
     pronoun:['i','it','you.'],
     preposition: ['as','in','to','from'],
     conjuncion: ['and','but'],
@@ -10,7 +10,7 @@ let answer1={
 }
 let audio=new Audio('music/popsound.mp3');
 let cont = document.getElementById('con');
-let para = "Hi! my name is Moaegan and I work as an English instructor. Aside from teaching, I also do hosting and vlogging I may not excel in writing, but I am an online writer too. It is nice to meet you.";
+let para = "Hi! my name is Salil and I work as an English instructor. Aside from teaching, I also do hosting and vlogging I may not excel in writing, but I am an online writer too. It is nice to meet you.";
 let submitButton=document.getElementById('btn');
 let text = "";
 let score=document.getElementById('grade');

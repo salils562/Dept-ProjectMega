@@ -3,8 +3,8 @@ let dancingImage = document.getElementById('image');
 let blocks = document.getElementsByClassName('blocks');
 let middleElement = document.getElementsByClassName('item-5');
 let correctBuzzer=new Audio('music//correctBuzzer.mp3');
-let soundopo=new Audio('music//oppos.mp3');
-let soundsimi=new Audio('music//similarmode.mp3');
+let soundopo=new Audio('music//antonym-oppo.mp3');
+let soundsimi=new Audio('music//synonym-same.mp3');
 let count = 0;
 let count2 = 0;
 let presentKey;
@@ -38,7 +38,7 @@ let similarButton = document.getElementById('similar-mode');
 oppositeButton.addEventListener('click', () => {
     select = opposite;
     count=0;
-    document.getElementById('ask-user').innerText = 'opposite mode set';
+    document.getElementById('ask-user').innerText = 'Antonym mode set';
     similarButton.className = 'btn btn-primary mx-4 my-2';
     oppositeButton.className = 'btn btn-success mx-4 my-2';
     soundopo.play();
@@ -70,7 +70,7 @@ oppositeButton.addEventListener('click', () => {
 similarButton.addEventListener('click', () => {
     select = similar;
     count2=0;
-    document.getElementById('ask-user').innerText = 'similar mode set';
+    document.getElementById('ask-user').innerText = 'Synonym mode set';
     oppositeButton.className = 'btn btn-primary mx-4 my-2';
     similarButton.className = 'btn btn-success mx-4 my-2';
     soundsimi.play();

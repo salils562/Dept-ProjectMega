@@ -74,50 +74,6 @@ body {
     width: 25vw;
 }
 
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards .items {
-    border-radius: 5px;
-    margin: 0px 20px;
-    padding: 10px;
-    text-align: center;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.cards .items img {
-    width: 25vw;
-    height: 20vw;
-    border-radius: 10px;
-
-}
-
-.details {
-    position: relative;
-    width: 25vw;
-    height: 15vw;
-    opacity: 100;
-    border-radius: 10px;
-    z-index: 1;
-    margin-top: -20px;
-    font-size: 1.1rem;
-    padding: 20px 10px;
-    text-align: center;
-
-}
-
-.details p {
-    margin: 5px 0px;
-}
-
 footer {
     background-color: rgb(30, 29, 29);
     height: 50px;
@@ -139,10 +95,6 @@ footer p {
         font-size: 1.5rem;
         height: 150px;
         width: 70%;
-    }
-    .details{
-        width: auto;
-        height: auto;
     }
     .mission img,
     .det {
@@ -178,24 +130,6 @@ footer p {
         height: 150px;
         width: auto;
         padding: 0px 10px;
-    }
-
-    .cards{
-        flex-direction: column;
-    }
-    .cards .items {
-        width: auto;
-        margin: 5px 5px;
-    }
-
-    .details {
-        height: auto;
-        width: auto;
-    }
-
-    .cards .items img {
-        width: 200px;
-        height: 200px;
     }
 
     .ill2 {
