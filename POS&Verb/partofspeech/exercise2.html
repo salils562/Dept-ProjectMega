@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parts of Speech</title>
+    <title>Exercise - 2 (parts of speech)</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/partsofspeech.css">
+    <link rel="stylesheet" href="../css/partsofspeech.css">
 </head>
 
 <body>
     <div class="back-to-home mb-3 mt-2">
-        <a href="../leaning.html">&larr; learning</a>
+        <a href="../../leaning.html">&larr; learning</a>
     </div>
     <button class="btn btn-primary rules" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">SEE GAME RULES</button>
 
@@ -23,15 +23,10 @@
       </div>
       <div class="offcanvas-body" style="color: black; font-weight: bold; background-color: cadetblue;">
         <p>Using mouse drag and drop the words into correct container.</p>
-        <p>If score is more than 35, Excellent.</p>
-        <p>If score is less than 35, Try again.</p>
       </div>
     </div>
-       <div class="grades">
-        <div>Your Score is: <p style="display: inline-block;" id="grade"></p> <b>/</b> <p id="outof" style="display: inline-block;"></p></div>
-    </div>
     <div class="container my-3">
-    <h3>Exercises on Parts of speech:</h3>
+    <h3>Exercise 2:</h3>
     <h3><b style="color: red">Drag and Drop</b> words from a paragraph into correct container</h3></div>
     <div class="containerr" id="con"></div>
     <div class="boxes">
@@ -69,17 +64,13 @@
         </div>
     </div>
     <div id="buttoninside">
-        <button class="btn" id="btn">Submit</button>
+        <button class="btn-editable" id="btn">Submit</button>
+        <div style="margin-top: 10px;">
+            <button class="btn-editable" id="btn2">Next question &rarr;</button>
+            <button class="btn-editable" id="btn3">&larr; Previous question</button>
+        </div>
     </div>
-    <nav aria-label="Page navigation example" class="mx-auto paginate">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-    <script src="javaScript/partsofSpeech.js"></script>
+    <script src="../javaScript/partofspeechexer2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 

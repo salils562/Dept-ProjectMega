@@ -1,0 +1,502 @@
+{
+    "answer1": {
+        "noun": ["table", "food", "water"],
+        "pronoun": ["you", "it", "that.","it?"],
+        "preposition": ["on", "there"],
+        "conjunction": ["and"],
+        "verb": ["see", "putting", "go", "bring", "clean"],
+        "adverb": ["too", "carefully."],
+        "adjective": ["dirty", "some", "poisonous"],
+        "interjection": []
+    },
+    "answer2": {
+        "noun": ["people","garden","woman\",","illness.","god!"],
+        "pronoun": ["this","i"],
+        "preposition": ["in", "there"],
+        "conjunction": [],
+        "verb": ["praying","shivering","help","said.","were"],
+        "adverb": ["terribly"],
+        "adjective": ["many","old","poor"],
+        "interjection": ["\"oh"]
+    },
+    "answer3": {
+        "noun": ["south-korea","girl","man","story","drama","landing","crash"],
+        "pronoun": ["this","she","him"],
+        "preposition": ["about","in","with"],
+        "conjunction": ["while","and"],
+        "verb": ["landed","paragliding","met","fell","is"],
+        "adverb": ["accidentally"],
+        "adjective": ["korean","charming"],
+        "interjection": []
+    },
+    "answer4": {
+        "noun": ["minister","town","townfloks"],
+        "pronoun": ["he"],
+        "preposition": ["upon","of"],
+        "conjunction": ["so","that","and"],
+        "verb": ["visited","understand","decide","may"],
+        "adverb": ["better"],
+        "adjective": ["troubled","necessary"],
+        "interjection": []
+    },
+    "answer5": {
+        "noun": ["meera","friend","girls","score","class","parents"],
+        "pronoun": ["her","their"],
+        "preposition": ["with","in"],
+        "conjunction": ["and","though"],
+        "verb": ["are"],
+        "adverb": ["only"],
+        "adjective": ["brilliant","highest","good","poor"],
+        "interjection": ["great"]
+    },
+    "answer6": {
+        "noun": ["rajat","girlfriend","london","date"],
+        "pronoun": ["his","their","they"],
+        "preposition": ["in","for"],
+        "conjunction": ["and","like"],
+        "verb": ["enjoying","are","made","seem"],
+        "adverb": ["merrily"],
+        "adjective": ["first"],
+        "interjection": ["wow"]
+    },
+    "answer7": {
+        "noun": ["gift","rosy","candle","flames"],
+        "pronoun": ["she","it","that"],
+        "preposition": ["near"],
+        "conjunction": ["however"],
+        "verb": ["received","placed","may","burn"],
+        "adverb": ["carelessly"],
+        "adjective": ["beautiful","adorable"],
+        "interjection": ["wow!"]
+    },
+    "answer8": {
+        "noun": ["girl","letter","teacher","angel","goddess"],
+        "pronoun": ["she","i","her"],
+        "preposition": ["from"],
+        "conjunction": ["and"],
+        "verb": ["brought","disappeared","was","am"],
+        "adverb": ["quickly"],
+        "adjective": ["young","very","long"],
+        "interjection": ["oh my god!"]
+    },
+    "answer9": {
+        "noun": ["harry","meghan","queen","decision","society"],
+        "pronoun": ["their"],
+        "preposition": ["with","in"],
+        "conjunction": ["and","as well as"],
+        "verb": ["surprised","was"],
+        "adverb": ["really"],
+        "adjective": ["sudden"],
+        "interjection": ["wow!"]
+    },
+    "answer10": {
+        "noun": ["friend","student","mark","school","town","boy","canada","exams","doodly","grades"],
+        "pronoun": ["my","he","his"],
+        "preposition": ["in","of","up","for"],
+        "conjunction": ["and"],
+        "verb": ["born","got","was","called","studied","grew"],
+        "adverb": ["carefully"],
+        "adjective": ["small","northern","happy","intelligent","good"],
+        "interjection": []
+    },
+    "answer11": {
+        "noun": ["rene","girl","years","sister","newyork","dancer","gymnast"],
+        "pronoun": ["i","she","your"],
+        "preposition": ["in","for"],
+        "conjunction": [],
+        "verb": ["is","am","works","been","dancing"],
+        "adverb": [],
+        "adjective": ["beautiful","skilled","eight","past"],
+        "interjection": ["wow!"]
+    },
+    "answer12": {
+        "noun": ["movie","people","tickets","hall"],
+        "pronoun": ["it"],
+        "preposition": [],
+        "conjunction": ["and","however","that's why"],
+        "verb": ["was","rushed","book","left"],
+        "adverb": ["abruptly"],
+        "adjective": ["interesting","fast","few","many"],
+        "interjection": ["Ah!"]
+    },
+    "answer13": {
+        "noun": ["husband","europe"],
+        "pronoun": ["my","we","i","that"],
+        "preposition": ["to","in"],
+        "conjunction": ["and","however"],
+        "verb": ["wish","could","travel","afford","take","visiting"],
+        "adverb": ["yearly"],
+        "adjective": ["too expensive"],
+        "interjection": ["ah!"]
+    },
+    "answer14": {
+        "noun": ["teacher","desk","morning","homework"],
+        "pronoun": ["us","her","it","she"],
+        "preposition": ["to","by","on"],
+        "conjunction": ["and"],
+        "verb": ["assigns","work","expects","it"],
+        "adverb": ["daily","extremely"],
+        "adjective": ["evil","next","so much","next","brutal"],
+        "interjection": ["egads!"]
+    },
+    "answer15": {
+        "noun": ["internet","hours","homework","stranger"],
+        "pronoun": ["i","it","my"],
+        "preposition": ["until","with","on"],
+        "conjunction": ["but"],
+        "verb": ["wish","left","had","done","Let","do"],
+        "adverb": [],
+        "adjective": ["two"],
+        "interjection": ["damn!"]
+    },
+    "answer16": {
+        "noun": ["bus","ticket","checker","ticket"],
+        "pronoun": ["he","it","him"],
+        "preposition": ["after"],
+        "conjunction": ["but","and"],
+        "verb": ["ran","was","caught","came","found","fined"],
+        "adverb": ["quickly","suddenly","heavily"],
+        "adjective": ["red"],
+        "interjection": []
+    },
+    "answer17": {
+        "noun": ["india","medals","country","games","netizens!","players","common-wealth"],
+        "pronoun": [],
+        "preposition": ["from"],
+        "conjunction": ["for which"],
+        "verb": ["won","earned","has","have","celebrating"],
+        "adverb": ["joyously"],
+        "adjective": ["so many","entire"],
+        "interjection": ["hurrah!"]
+    },
+    "answer18": {
+        "noun": ["fox","dog","example","theory","charles darwins","survival of the fittest."],
+        "pronoun": ["it","this"],
+        "preposition": ["over","of"],
+        "conjunction": ["and","well"],
+        "verb": ["killed","jumped","is"],
+        "adverb": ["quickly"],
+        "adjective": ["brown","lazy","real-life"],
+        "interjection": ["ahh!"]
+    },
+    "answer19": {
+        "noun": ["tom","bank","money","education","future"],
+        "pronoun": ["you","it","your"],
+        "preposition": ["to","in"],
+        "conjunction": ["and"],
+        "verb": ["are","save","may","use"],
+        "adverb": ["really"],
+        "adjective": ["smart"],
+        "interjection": ["wow!"]
+    },
+    "answer20": {
+        "noun": ["clare","serene,","ladder."],
+        "pronoun": ["i","he"],
+        "preposition": ["here."],
+        "conjunction": ["while"],
+        "verb": ["am","called","jumping"],
+        "adverb": ["loudly"],
+        "adjective": ["wooden"],
+        "interjection": ["hey!"]
+    },
+    "answer21": {
+        "noun": ["louisa","arms"],
+        "pronoun": ["her"],
+        "preposition": ["up","down"],
+        "conjunction": ["and"],
+        "verb": ["watch","yelled,","waving","jumping"],
+        "adverb": ["fractionally"],
+        "adjective": ["skinny"],
+        "interjection": ["oi!"]
+    },
+    "answer22": {
+        "noun": ["covid-19","shift","education" ,"education-system.","norm.","lockdown","classroom"],
+        "pronoun": [],
+        "preposition": [],
+        "conjunction": ["and"],
+        "verb": ["brought","imposition","led","shutdown","became"],
+        "adverb": [],
+        "adjective": ["dynamic","physical","online","new"],
+        "interjection": []
+    },
+     "answer23": {
+         "noun": ["bee","day","hour","honflowerey","cell"],
+         "pronoun": ["she","her","it"],
+         "preposition": ["from"],
+         "conjunction": ["also,"], 
+         "verb": ["utilizes","shining","gathers","builds","store","labours"],
+         "adverb": ["skillfully"],
+         "adjective": ["so wonderful","little","busy","hard","well"],
+         "interjection": ["wow!"]
+      },
+      "answer24": {
+         "noun": ["happiness","wealth","wages"],
+         "pronoun": ["i","you"],
+         "preposition": ["there","in"],
+         "conjunction": ["but","and"], 
+         "verb": ["is","urge","stop","working","start"],
+         "adverb": ["simply"],
+         "adjective": ["so much"],
+         "interjection": []
+      },
+      "answer25": {
+         "noun": ["eclipse","moon","sun","earth","light"],
+         "pronoun": [],
+         "preposition": ["of","between","from"],
+         "conjunction": ["and"], 
+         "verb": ["happens","cuts","appears","cover"],
+         "adverb": ["completely"],
+         "adjective": ["partial","some","total"],
+         "interjection": []
+      },
+      "answer26": {
+         "noun": ["plants","insects","animals","birds","defence"],
+         "pronoun": ["themselves"],
+         "preposition": ["from","by","their","of","them"],
+         "conjunction": [], 
+         "verb": ["develop","protect","eaten","make","study"],
+         "adverb": [],
+         "adjective": ["physical","special","chemical","fascinating"],
+         "interjection": []
+      },
+      "answer27": {
+         "noun": [],
+         "pronoun": ["it","you"],
+         "preposition": ["up","out"],
+         "conjunction": ["but","as well"], 
+         "verb": ["growing","challenging","trying","figure","like","do"],
+         "adverb": ["extremely"],
+         "adjective": ["fun","good"],
+         "interjection": []
+      },
+      "answer28": {
+         "noun": ["bermuda","triangle","mysteries","years","ships,","boats,","planes","triangle"],
+         "pronoun": ["this"],
+         "preposition": ["over"],
+         "conjunction": [], 
+         "verb": ["emerged","disappearance","defies"],
+         "adverb": [],
+         "adjective": ["greatest","bizzare","unexplained","mordern","countless"],
+         "interjection": []
+      },
+      "answer29": {
+         "noun": ["good","competitors","services","opportunity","companies","products"],
+         "pronoun": ["their"],
+         "preposition": ["for"],
+         "conjunction": ["and"], 
+         "verb": ["advertising","gain","promotion","sell"],
+         "adverb": ["quickly"],
+         "adjective": ["better","more"],
+         "interjection": []
+      },
+      "answer30": {
+         "noun": ["indians","guest","arms","person","god"],
+         "pronoun": ["they","their","them"],
+         "preposition": ["for"],
+         "conjunction": ["that"], 
+         "verb": ["known","feel","welcome","honored","serve"],
+         "adverb": [],
+         "adjective": ["hospitality","open"],
+         "interjection":[]
+      },
+      "answer31": {
+         "noun": ["covid-19","world,","friends","mankind","shutters","school","life","decades"],
+         "pronoun": ["itself","i","my"],
+         "preposition": ["across","with"],
+         "conjunction": ["since"], 
+         "verb": ["spread","has","played","had","seems","close","attended","reorganized"],
+         "adverb": [],
+         "adjective": ["harsh"],
+         "interjection": []
+      },
+      "answer32": {
+         "noun": ["martin","luther","king","jr.","priest","people","united","states","of","america"],
+         "pronoun": [],
+         "preposition": [],
+         "conjunction": ["and"], 
+         "verb": ["waged","struggle","bring"],
+         "adverb": ["peacefully"],
+         "adjective": ["american","lifelong","economic","racial","black"],
+         "interjection": []
+      },
+      "answer33": {
+         "noun": ["pearl","man","it","gems","human"],
+         "pronoun": ["it"],
+         "preposition": ["since"],
+         "conjunction": ["and"], 
+         "verb": ["fascinated","discovered","tresured","civilisation"],
+         "adverb": [],
+         "adjective": ["most","valuable","earliest"],
+         "interjection": []
+      },
+      "answer34": {
+         "noun": ["dreams"],
+         "pronoun": ["i"],
+         "preposition": ["by"],
+         "conjunction": ["and"], 
+         "verb": ["become","make","come","give","go","see"],
+         "adverb": ["extremely"],
+         "adjective": ["some","magical","invisible","happy"],
+         "interjection": ["ahh!"]
+      },
+      "answer35": {
+         "noun": ["life"],
+         "pronoun": ["himself","he"],
+         "preposition": ["in","of","for"],
+         "conjunction": ["both"], 
+         "verb": ["control","unmoved","gets","broken","get"],
+         "adverb": ["too"],
+         "adjective": ["bad","good"],
+         "interjection": []
+      },
+      "answer36": {
+         "noun": ["birds","tree","banyan","trees","school","road"],
+         "pronoun": ["i"],
+         "preposition": ["on"],
+         "conjunction": ["and"], 
+         "verb": ["love","rise","sing","go","walk"],
+         "adverb": ["merrily"],
+         "adjective": ["early","thick","sweet"],
+         "interjection": ["oh!"]
+      },
+      "answer37": {
+         "noun": ["people","taxes","government"],
+         "pronoun": ["they","them"],
+         "preposition": [],
+         "conjunction": ["if"], 
+         "verb": ["complain","say","do","taxed"],
+         "adverb": [],
+         "adjective": ["rich","better","less"],
+         "interjection": []
+      },
+      "answer38": {
+         "noun": ["gown","market"],
+         "pronoun": ["this","she","it","i"],
+         "preposition": ["from","there"],
+         "conjunction": [], 
+         "verb": ["asked","go","grab","replied"],
+         "adverb": ["quickly"],
+         "adjective": ["adorable","new"],
+         "interjection": []
+      },
+      "answer39": {
+         "noun": ["sam","jody","station","cat","parrot"],
+         "pronoun": ["it","he"],
+         "preposition": ["at"],
+         "conjunction": ["and"], 
+         "verb": ["met","having","spoke"],
+         "adverb": ["softly"],
+         "adjective": ["green"],
+         "interjection": []
+      },
+      "answer40": {
+         "noun": ["classes","school"],
+         "pronoun": ["i","my"],
+         "preposition": ["at","from"],
+         "conjunction": ["that","and"], 
+         "verb": ["heard","going","starting"],
+         "adverb": [],
+         "adjective": ["all","online","first"],
+         "interjection": ["wow!"]
+      },
+      "answer41": {
+         "noun": ["mother","meal","smile","food"],
+         "pronoun": ["your","she","her"],
+         "preposition": ["in"],
+         "conjunction": ["and"], 
+         "verb": ["prepared","cooking","makes"],
+         "adverb": [],
+         "adjective": ["great","too","fast","more","delicious"],
+         "interjection": ["amazing!"]
+      },
+      "answer42": {
+         "noun": ["andrew","maria","jobs","customer"],
+         "pronoun": ["their","them"],
+         "preposition": ["after"],
+         "conjunction": ["but"], 
+         "verb": ["thought","approaching"],
+         "adverb": [],
+         "adjective": ["secure","rancorous","bad","fast"],
+         "interjection": ["alas!"]
+      },
+      "answer43": {
+         "noun": ["meera","friend","girls","class"],
+         "pronoun": ["her","i","them"],
+         "preposition": ["of","in"],
+         "conjunction": ["and"], 
+         "verb": ["scored"],
+         "adverb": ["very"],
+         "adjective": ["only","brilliant","highest"],
+         "interjection": ["great!"]
+      },
+      "answer44": {
+         "noun": ["george"],
+         "pronoun": ["her"],
+         "preposition": ["for"],
+         "conjunction": ["and"], 
+         "verb": ["exclaied","clapped"],
+         "adverb": ["loudly"],
+         "adjective": ["stellar"],
+         "interjection": ["how","wonderful!"]
+      },
+      "answer45": {
+        "noun": ["ranbir","alia"],
+        "pronoun": ["they","my","i","them"],
+        "preposition": ["of","ahead"],
+        "conjunction": ["and"], 
+        "verb": ["married","adore","wish"],
+        "adverb": [],
+        "adjective": ["favorite","happy"],
+        "interjection": ["wow!"]
+     },
+     "answer46": {
+        "noun": ["kamala"],
+        "pronoun": ["i","me"],
+        "preposition": ["of"],
+        "conjunction": ["but"], 
+        "verb": ["left","tried","manage","provoked"],
+        "adverb": ["angrily","calmly"],
+        "adjective": ["several"],
+        "interjection": ["agh!"]
+     },
+     "answer47": {
+        "noun": ["teacher","prize","team","monitor"],
+        "pronoun": ["we"],
+        "preposition": ["after"],
+        "conjunction": ["that","this"], 
+        "verb": ["give","scores","said","practiced","hearing"],
+        "adverb": ["hardly"],
+        "adjective": ["highest","more"],
+        "interjection": ["yeah!"]
+     },
+     "answer48": {
+        "noun": ["song","radio","voice"],
+        "pronoun": ["she","i","her"],
+        "preposition": ["on","over"],
+        "conjunction": ["this"], 
+        "verb": ["sang","get"],
+        "adverb": [],
+        "adjective": ["melodious"],
+        "interjection": []
+     },
+     "answer49": {
+        "noun": ["day","exam","john","book"],
+        "pronoun": ["it","he"],
+        "preposition": ["of","for","through","during"],
+        "conjunction": ["but","and"], 
+        "verb": ["thumbed","learned","slept","failed"],
+        "adverb": ["rapidly","very"],
+        "adjective": ["last"],
+        "interjection": ["alas!"]
+     },
+     "answer50": {
+        "noun": ["ant","doctor"],
+        "pronoun": ["me","it"],
+        "preposition": [],
+        "conjunction": [], 
+        "verb": ["bit","paining","call"],
+        "adverb": ["immensely"],
+        "adjective": ["red","soon"],
+        "interjection": ["ouch!"]
+     }
+}

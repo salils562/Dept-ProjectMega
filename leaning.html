@@ -26,34 +26,49 @@
             height: 100px;
             border-radius: 50%;
         }
-        .block{
+
+        .block {
             height: 25px;
         }
-        .items{
+
+        .items {
             padding-left: 50px;
             padding-top: 20px;
             padding-bottom: 20px;
         }
-        #iconhome{
+
+        .items div {
+            margin-bottom: 20px;
+        }
+
+        .items div p {
+            margin-bottom: 0px;
+        }
+
+        #iconhome {
             height: 50px;
             width: 70px;
             border-radius: 50%;
         }
-        .home-icon{
+
+        .home-icon {
             position: absolute;
             left: 50px;
             top: 20px;
         }
-        .home-icon a:hover{
-         color: black;
-         font-size: 1.2rem;
+
+        .home-icon a:hover {
+            color: black;
+            font-size: 1.2rem;
         }
-        @media only screen and (max-width: 500px){
-            .items{
+
+        @media only screen and (max-width: 500px) {
+            .items {
                 font-size: 1rem;
-                
+
             }
-            .home-icon{
+
+            .home-icon {
                 left: 20px;
                 top: 10px;
             }
@@ -64,8 +79,8 @@
 <body>
     <div class="home-icon">
         <a class="d-flex flex-column align-items-center" href="index.html">
-        <img src="images/homeicon.jpg" alt="this is a home icon" id="iconhome">
-        <p>HOME</p>
+            <img src="images/homeicon.jpg" alt="this is a home icon" id="iconhome">
+            <p>HOME</p>
         </a>
     </div>
     <div class="container d-flex justify-content-center align-items-center my-5">
@@ -79,11 +94,29 @@
     <div class="container border border-3 rounded-3 border-dark p-0 border-top-0">
         <div class="block bg-dark rounded-pill"></div>
         <div class="items">
-            <p>Tenses :<a href="Tenses/dinoGame.html"> Includes theroy related to tenses and exercises related to it.</a></p>
-            <p>Parts of Speech :<a href="POS&Verb/partsofspeech.html"> Includes theory realted to Parts of speech and exercises.</a></p>
-            <p>Verbs :<a href="POS&Verb/verbexercise.html"> Includes theory realted to verbs and exercises.</a></p>
-            <p>Adverbs :<a href="Adverb/adverb.html"> Includes theory realted to Adverbs and exercises.</a></p>
-            <p>Words :<a href="Words/opposite.html"> Includes exercises related to words.</a></p>
+            <div>
+                <p>Tenses :</p>
+                <li><a href="Tenses/dinoGame.html"> Exercise 1: Dino and Obstacles</a></li>
+                <li><a href="Tenses/exercise1.html"> Exercise 2: Fill the blanks with correct answer</a></li>
+            </div>
+            <div>
+                <p>Parts of Speech :</p>
+                <li><a href="POS&Verb/partofspeech/partsofspeech.html"> Exercise 1: Drag and Drop words into right container</a></li>
+                <li><a href="POS&Verb/partofspeech/exercise2.html"> Exercise 2: Drag and Drop words into right container</a></li>
+            </div>
+            <div>
+                <p>Verbs :<a href="POS&Verb/verbexercise.html"> Includes theory realted to verbs and exercises.</a></p>
+            </div>
+            <div>
+                <p>Adverbs:</p>
+                <li><a href="Adverb/adverb.html"> Exercise 1: shot the balloon</a></li>
+                <li><a href="Adverb/adverbexer2.html"> Exercise 2: drag and drop on the blanks</a></li>
+            </div>
+            <div>
+                <p>Words :</p>
+                <li><a href="Words/opposite.html">Exercise 1: Find antonyms and synonyms of the word</a></li>
+                <li><a href="Words/find.html">Exercise 2: Find the mistakes in the sentence</a></li>
+            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

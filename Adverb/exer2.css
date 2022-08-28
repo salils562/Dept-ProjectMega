@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-image: url('images/whitebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{
+    background-color: rgb(146, 204, 255);
+    padding: 10px 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#con2{
+    display: flex;
+    flex-direction: column;
+}
+#con2 p{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 10px;
+}
+#con2 p a{
+    text-decoration: none;
+}
+#con2 p:hover{
+    background-color: antiquewhite;
+}
+.items{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.items p{
+    font-size: 1.1rem;
+}
+.items-option{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+.items-option span{
+    margin: 0px 10px;
+    padding: 0px;
+}
+.blanks{
+    display: inline-block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 10vw;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.corr{
+    margin-left: 20px;
+}
+/* wrong answer */
+.telluser{
+    color: red;
+    margin-left: 20px;
+}
+.telluser p{
+    margin-bottom: 0px;
+}
+/* drag and drop css */
+.fadeout{
+    display: none;
+}
+@media only screen and (max-width: 500px){
+    .items{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #con2 p{
+        font-size: 0.8rem;
+        width: 75px;
+    }
+    .blanks{
+        width: 25vw;
+    }
+}
+
+

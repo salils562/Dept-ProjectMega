@@ -1,15 +1,27 @@
 // setting variables
 let questions = {
-    question1: "1) She worked <span class='blanks'>______</span> and passed the examination.",
-    question2: "2) We <span class='blanks'>______</span> see a lion.",
-    question3: "3) He narrated the incident in <span class='blanks'>______</span>.",
-    question4: "4) He often comes <span class='blanks'>______</span> to school.",
-    question5: "5) I really feel <span class='blanks'>______</span> about it.",
-    question6: "6) He is <span class='blanks'>______</span> rich.",
-    question7: "7) The journey was <span class='blanks'>______</span> uncomfortable.",
-    question8: "8) The lecture was <span class='blanks'>______</span> boring.",
-    question9: "9) Hardly <span class='blanks'>______</span> had any rest for weeks.",
-    question10: "10) He is getting <span class='blanks'>______</span> day by day."
+    question1: "She worked <span class='blanks'>______</span> and passed the examination.",
+    question2: "We <span class='blanks'>______</span> see a lion.",
+    question3: "He narrated the incident in <span class='blanks'>______</span>.",
+    question4: "He often comes <span class='blanks'>______</span> to school.",
+    question5: "I really feel <span class='blanks'>______</span> about it.",
+    question6: "He is <span class='blanks'>______</span> rich.",
+    question7: "The journey was <span class='blanks'>______</span> uncomfortable.",
+    question8: "The lecture was <span class='blanks'>______</span> boring.",
+    question9: "Hardly <span class='blanks'>______</span> had any rest for weeks.",
+    question10: "He is getting <span class='blanks'>______</span> day by day.",
+    question11:"The town grew <span class='blanks'>______</span> after 1997.", 
+    question12:"He waited <span class='blanks'>______</span> for his mother to arrive." ,
+    question13:"He gave us the money <span class='blanks'>______</span>.",
+    question14:"He <span class='blanks'>______</span>ate the chocolate cake.",
+    question15:"I thought the movie ended <span class='blanks'>______</span>.",
+    question16:"The <span class='blanks'>______</span> painted landscape is a wonderful addition to my living room decor",
+    question17:"Grandma's crystal vase is a priceless antique that must be handled <span class='blanks'>______</span>",
+    question18:"The sun shone <span class='blanks'>______</span>.",
+    question19:"The teacher spoke <span class='blanks'>______</span> to me.",
+    question20:"He can run <span class='blanks'>______</span> better than I do.",
+    question21:"She entered the room <span class='blanks'>______</span>.",
+    question22:"Unlike the calm waters of lakes, ocean water keeps moving <span class='blanks'>______</span>."
 }
 let options = {
     option1: ['hard', 'hardly', 'hardest'],
@@ -22,8 +34,20 @@ let options = {
     option8: ['fairly', 'rather', 'neither'],
     option9: ['have I', 'I have', 'have'],
     option10: ['well', 'better', 'best'],
+    option11:['swiftly','quick', 'quickly'],
+    option12:['slowly', 'patiently', 'with patience'],
+    option13:['generously', 'kindly', 'kind'],
+    option14:['greedy', 'greedily', 'greed'],
+    option15:['abrupt', 'abruptly', 'hardly'],
+    option16:['wonder', 'beautifully', 'abruptly'],
+    option17:['delicately', 'carelessly', 'tightly'],
+    option18:['lightly','brightly','heavily'],
+    option19:['kindly', 'eagerly', 'generously'],
+    option20:['more','far','too'],
+    option21:['quiet', 'quietly', 'delicately'],
+    option22:['patiently', 'continuously', 'tightly'],
 }
-let answers = ['hard', 'rarely', 'detail', 'late', 'bad', 'very', 'rather', 'rather', 'have I', 'better'];
+let answers = ['hard', 'rarely', 'detail', 'late', 'bad', 'very', 'rather', 'rather', 'have I', 'better','quickly','patiently','generously','greedily','abruptly','beautifully','delicately','brightly','kindly','far','quietly','continuously'];
 let blanks = document.getElementsByClassName('blanks');
 let AppendQuestion = document.getElementById('question');
 let nextButton = document.getElementById('next-question');
@@ -37,16 +61,16 @@ let cheer = new Audio('music/cheer.mp3');
 let girl = document.getElementById('girl');
 // setting variable default values
 let qIter = 1;
-AppendQuestion.innerHTML=`<p>${questions[`question${qIter}`]}</p>`;
+AppendQuestion.innerHTML=`<p>${qIter}) ${questions[`question${qIter}`]}</p>`;
 previousButton.disabled = true;
 Array.from(ballons).forEach((element, index) => {
     element.children[0].innerText = options[`option${qIter}`][index];
 });
 // defining functions
 function NextQuestion() {
-    if (qIter < 10) {
+    if (qIter < Object.keys(questions).length) {
         qIter++;
-        AppendQuestion.innerHTML=`<p>${questions[`question${qIter}`]}</p>`;
+        AppendQuestion.innerHTML=`<p>${qIter}) ${questions[`question${qIter}`]}</p>`;
         setBallons();
         previousButton.disabled = false;
     }
@@ -58,7 +82,7 @@ function NextQuestion() {
 function PreviousQuestion() {
     if (qIter > 1) {
         qIter--;
-        AppendQuestion.innerHTML=`<p>${questions[`question${qIter}`]}</p>`;
+        AppendQuestion.innerHTML=`<p>${qIter}) ${questions[`question${qIter}`]}</p>`;
         setBallons();
         nextButton.disabled = false;
     }

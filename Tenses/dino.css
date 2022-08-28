@@ -21,22 +21,6 @@ body {
     margin-top: 3px;
 
 }
-.next-exercise{
-    position: absolute;
-    top: 80px;
-    right: 20px;
-}
-.next-exercise a{
-    text-decoration: none;
-    color: black;
-    background-color: rgb(0, 136, 255);
-    padding: 5px;
-    font-weight: bold;
-    border-radius: 15px;
-}
-.next-exercise a:hover{
-    background-color: white;
-}
 .questions {
     background-color: aqua;
     padding: 10px 10px;
@@ -187,14 +171,6 @@ body{
 }
 .obstacle{
     bottom: 260px;
-}
-.next-exercise{
-    right: 0px;
-    top: 130px;
-}
-.next-exercise a{
-    padding: 4px;
-    font-size: 0.8rem;
 }
 .mobile-controls{
     visibility: visible;
