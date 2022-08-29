@@ -25,6 +25,11 @@ background: url('../images/background.png');
     font-size: 1.3rem;
     text-align: center;
 }
+#reset{
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
 #next{
     width: 90px;
     height: 35px;
@@ -66,7 +71,6 @@ background: url('../images/background.png');
 #option li {
     margin: 5px 15px;
 }
-
 
 @media only screen and (max-width: 700px) {
     .container{

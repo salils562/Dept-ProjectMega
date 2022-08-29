@@ -80,3 +80,6 @@ imageAsking.style.height='0px';
 imageAsking.style.width='0px';
 });
 
+document.getElementById('reset').addEventListener('click',()=>{
+location.reload();
+});

@@ -30,7 +30,7 @@
         "interjection": []
     },
     "answer4": {
-        "noun": ["minister","town","townfloks"],
+        "noun": ["minister","town","townsflok"],
         "pronoun": ["he"],
         "preposition": ["upon","of"],
         "conjunction": ["so","that","and"],
@@ -46,41 +46,41 @@
         "conjunction": ["and","though"],
         "verb": ["are"],
         "adverb": ["only"],
-        "adjective": ["brilliant","highest","good","poor"],
-        "interjection": ["great"]
+        "adjective": ["brilliant","highest","poor."],
+        "interjection": ["great!"]
     },
     "answer6": {
-        "noun": ["rajat","girlfriend","london","date"],
+        "noun": ["rajat","girlfriend","london.","date"],
         "pronoun": ["his","their","they"],
         "preposition": ["in","for"],
         "conjunction": ["and","like"],
         "verb": ["enjoying","are","made","seem"],
         "adverb": ["merrily"],
         "adjective": ["first"],
-        "interjection": ["wow"]
+        "interjection": ["wow!"]
     },
     "answer7": {
-        "noun": ["gift","rosy","candle","flames"],
+        "noun": ["gift","rosy","candle.","flames","gift."],
         "pronoun": ["she","it","that"],
         "preposition": ["near"],
-        "conjunction": ["however"],
-        "verb": ["received","placed","may","burn"],
+        "conjunction": ["however,"],
+        "verb": ["received.","placed","may","burn"],
         "adverb": ["carelessly"],
         "adjective": ["beautiful","adorable"],
         "interjection": ["wow!"]
     },
     "answer8": {
-        "noun": ["girl","letter","teacher","angel","goddess"],
-        "pronoun": ["she","i","her"],
+        "noun": ["girl","letter","teacher","angel","goddess?"],
+        "pronoun": ["she","i","her."],
         "preposition": ["from"],
         "conjunction": ["and"],
-        "verb": ["brought","disappeared","was","am"],
+        "verb": ["brought","disappeared.","was,","am"],
         "adverb": ["quickly"],
-        "adjective": ["young","very","long"],
+        "adjective": ["young","very","long","safe"],
         "interjection": ["oh my god!"]
     },
     "answer9": {
-        "noun": ["harry","meghan","queen","decision","society"],
+        "noun": ["harry","meghan","queen","decision","society.","decision."],
         "pronoun": ["their"],
         "preposition": ["with","in"],
         "conjunction": ["and","as well as"],
@@ -90,7 +90,7 @@
         "interjection": ["wow!"]
     },
     "answer10": {
-        "noun": ["friend","student","mark","school","town","boy","canada","exams","doodly","grades"],
+        "noun": ["friend","student","mark","school","town","boy.","canada","exams","doodly.","grades."],
         "pronoun": ["my","he","his"],
         "preposition": ["in","of","up","for"],
         "conjunction": ["and"],
