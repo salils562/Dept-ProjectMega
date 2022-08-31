@@ -82,7 +82,7 @@ let options = {
 };
 function check(element,word,num){
 let xhr=new XMLHttpRequest();
-xhr.open('GET','ans.JSOn',true);
+xhr.open('GET','ans.JSON',true);
 xhr.onload=function(){
 let ans=JSON.parse(this.responseText);
 if(ans[num-1]===word){
