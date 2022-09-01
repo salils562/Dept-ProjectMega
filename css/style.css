@@ -32,86 +32,82 @@
     padding: 36px 6px;
     margin: 2px;
 }
-.imgs {
-    height: 450px;
-    width: 100%;
+.developed-by-main{
+    color: white;
+    background: linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
 }
-
-.mission {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    padding-top: 70px;
+.developed-by{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
-
-.det {
+.develop-items{
+    margin: 30px 0px 30px 70px;
+}
+.develop-items img{
+    margin-right: 8px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.para h5{
+    font-weight: bold;
+}
+.imgs{
+    width: 100%;
+    height: 80vh;
+}
+.mission{
+display: flex;
+justify-content: center;
+}
+.mission-item{
     width: 50%;
 }
-
-.mission img,
-.det {
-    margin: 10px 50px;
+.inside{
+    width: 80%;
+    height: 100vh;
 }
-
-.ill2 {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+.mission-item-child{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 80px;
-    
-
+    width: 80%;
 }
-
-.ill2 .items2 {
-    margin: 10px;
-
-}
-
-#teachill {
-    filter: drop-shadow(8px 8px 10px rgb(9, 207, 190));
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-
-}
-
-#thesis {
-    height: 25vw;
-    width: 25vw;
-}
-
-footer {
-    background-color: rgb(30, 29, 29);
+.mission-item-child img{
+    width: 100px;
     height: 50px;
-    color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+#calendar{
+    width: 76px;
+    height: 50px;
+}
+.curriculum{
+    background-color: black;
+    border-radius: 5px;
+}
+.curr-item-cards{
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.curr-item-cards p{
+    color: #a09fa0;
+}
+footer{
+    background-color: black;
     text-align: center;
+    color: white;
+    height: 10vh;
 }
-
-footer p {
-    padding-top: 20px;
+footer p{
+    padding-top: 15px;
 }
-
-.spacing {
-    font-size: 1.2rem;
-    word-spacing: 3px;
-}
-@media only screen and (max-width: 700px) {
-   
-    .mission img,
-    .det {
-        margin: 10px 30px;
-    }
-
-    #teachill {
-        height: 200px;
-        width: 200px;
-    }
-}
-
 @media only screen and (max-width: 500px) {
     .education-item{
         width: auto;
@@ -119,40 +115,34 @@ footer p {
     #item-inside-1{
         margin: 20px 5px;
     }
-    #teachill {
-        height: 200px;
-        width: 200px;
-        margin-bottom: 40px;
-        padding-top: 10px;
+    .imgs{
+        height: 50vh;
     }
-
-    .spacing {
-        font-size: 1rem;
-        word-spacing: 1px;
-        text-align: center;
+    .developed-by-main{
+        border-radius: 10px;
     }
-
-    .det {
+    .develop-items {
+        margin: 23px 0px 18px 70px;
+    }
+    .mission{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inside{
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 15px;
+    }
+    .mission-item{
         width: auto;
     }
-
-    #greet {
-        font-size: 1.4rem;
-        height: 150px;
-        width: auto;
-        padding: 0px 10px;
+    .mission-item-child{
+        width: 100%;
     }
-
-    .ill2 {
-        padding: 20px;
-        
+    footer{
+        height: 8vh;
     }
-
-    .ill2 .items2 p {
-        text-align: left;
-    }
-
-    .items2 img {
-        display: none;
+    footer p{
+        padding-top: 25px;
     }
 }
