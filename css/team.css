@@ -49,4 +49,7 @@
     .team-img{
         width: 90vw;
     }
+    .aboutUs p{
+        font-size: 1rem;
+    }
 }
