@@ -1,0 +1,52 @@
+.about{
+    padding: 140px 0px;
+}
+.who h1{
+    font-size: 3rem;
+}
+.aboutUs p{
+    font-size: 1.4rem;
+}
+.our-team{
+    border-radius: 5px;
+    height: 70px;
+}
+.our-team h1{
+    font-size: 3rem;
+}
+.head p{
+    font-size: 1.2rem;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.names{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.card-items-child{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px 8px;
+}
+.team-img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40vh;
+}
+@media only screen and (max-width:500px){
+    .card-items-child{
+        width: auto;
+    }
+    .team-img{
+        width: 90vw;
+    }
+}
