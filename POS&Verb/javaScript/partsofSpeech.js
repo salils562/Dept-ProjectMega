@@ -8,7 +8,7 @@ let answer1={
     adjective: ['an','english','online','too.','nice','my'],
     interjection: ['hi!']
 }
-let audio=new Audio('music/popsound.mp3');
+let audio=new Audio('../music/popsound.mp3');
 let cont = document.getElementById('con');
 let para = "Hi! my name is Salil and I work as an English instructor. Aside from teaching, I also do hosting and vlogging I may not excel in writing, but I am an online writer too. It is nice to meet you.";
 let submitButton=document.getElementById('btn');

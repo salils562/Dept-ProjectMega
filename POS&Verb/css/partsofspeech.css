@@ -129,7 +129,6 @@ body {
 .dragoverColor {
     background-color: aqua;
 }
-
 #buttoninside {
     text-align: center;
     margin-top: 20px;
@@ -147,9 +146,6 @@ body {
 
 .btn-editable:hover {
     background: green;
-}
-.paginate{
-    width: 20%;
 }
 /* Media queries */
 @media only screen and (max-width:944px) {

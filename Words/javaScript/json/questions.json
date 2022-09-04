@@ -1,0 +1,299 @@
+{
+    "question1": {
+        "ques": "It was so <span class='innerArray'>nasty</span> of him to help that old lady.",
+        "option": [
+            "unpleasant",
+            "nice",
+            "horrible"
+        ],
+        "answer": "nice"
+    },
+    "question2": {
+        "ques": "Jimmy's so <span class='innerArray'>reliable</span>. He's never on time for anything.",
+        "option": [
+            "unreliable",
+            "good",
+            "true"
+        ],
+        "answer": "unreliable"
+    },
+    "question3": {
+        "ques": "If you're <span class='innerArray'>mean</span>, you give people things.",
+        "option": [
+            "selfish",
+            "generous",
+            "greedy"
+        ],
+        "answer": "generous"
+    },
+    "question4": {
+        "ques": "I'm <span class='innerArray'>lazy</span>. I work very hard all the time.",
+        "option": [
+            "torpid",
+            "slothful",
+            "hard-working"
+        ],
+        "answer": "hard-working"
+    },
+    "question5": {
+        "ques": "He was so <span class='innerArray'>rude</span>. I liked his way of talking.",
+        "option": [
+            "arrogant",
+            "polite",
+            "loud"
+        ],
+        "answer": "polite"
+    },
+    "question6": {
+        "ques": "She is so <span class='innerArray'>ugly</span>. Everyone was praising her.",
+        "option": [
+            "gorgeous",
+            "cunning",
+            "bad"
+        ],
+        "answer": "gorgeous"
+    },
+    "question7": {
+        "ques": "She is sitting very <span class='innerArray'>closely</span> on the chair.",
+        "option": [
+            "calmly",
+            "twisted",
+            "beauty"
+        ],
+        "answer": "calmly"
+    },
+    "question8": {
+        "ques": "<span class='innerArray'>Because</span> having a headache , I enjoyed the film.",
+        "option": [
+            "despite",
+            "suddenly",
+            "that's why"
+        ],
+        "answer": "despite"
+    },
+    "question9": {
+        "ques": "The new bride looked <span class='innerArray'>saggy</span> in her white dress.",
+        "option": [
+            "wrinkled",
+            "glamorous",
+            "creepy"
+        ],
+        "answer": "glamorous"
+    },
+    "question10": {
+        "ques": "Alex is an <span class='innerArray'>cunning</span> boy as he respect everyone.",
+        "option": [
+            "greedy",
+            "ideal",
+            "rusty"
+        ],
+        "answer": "ideal"
+    },
+    "question11": {
+        "ques": "Your flower garden is very <span class='innerArray'>annoying</span>.",
+        "option": [
+            "Colourful",
+            "dirty",
+            "clums"
+        ],
+        "answer": "colourful"
+    },
+    "question12": {
+        "ques": "John <span class='innerArray'>should</span> won't come to school today.",
+        "option": [
+            "cunningly",
+            "probably",
+            "consistently"
+        ],
+        "answer": "probably"
+    },
+    "question13": {
+        "ques": "He can speak Japanese, <span class='innerArray'>because</span> he was born in Canada.",
+        "option": [
+            "Although",
+            "must",
+            "could"
+        ],
+        "answer": "Although"
+    },
+    "question14": {
+        "ques": "He is a worldwide <span class='innerArray'>duplicate</span> designer.",
+        "option": [
+            "Famous",
+            "intelligent",
+            "excellent"
+        ],
+        "answer": "Famous"
+    },
+    "question15": {
+        "ques": "She died a <span class='innerArray'>many</span> of years ago.",
+        "option": [
+            "couple",
+            "much",
+            "double"
+        ],
+        "answer": "couple"
+    },
+    "question16": {
+        "ques": "<span class='innerArray'>Doubtfully</span> you fail,what you will do?",
+        "option": [
+            "Thoroughly",
+            "enjoying",
+            "supposing"
+        ],
+        "answer": "supposing"
+    },
+    "question17": {
+        "ques": "<span class='innerArray'>Took</span> the book with you in case you see Mary.",
+        "option": [
+            "Take",
+            "grab",
+            "read"
+        ],
+        "answer": "Take"
+    },
+    "question18": {
+        "ques": "She has made <span class='innerArray'>handsome</span> cookies.",
+        "option": [
+            "delicious",
+            "beautiful",
+            "gorgeous"
+        ],
+        "answer": "delicious"
+    },
+    "question19": {
+        "ques": "My <span class='innerArray'>shorter</span> sister is a teacher.",
+        "option": [
+            "elder",
+            "largest",
+            "greater"
+        ],
+        "answer": "elder"
+    },
+    "question20": {
+        "ques": "The elephant is a <span class='innerArray'>weak</span> animal.",
+        "option": [
+            "big",
+            "small",
+            "quick"
+        ],
+        "answer": "big"
+    },
+    "question21": {
+        "ques": "Our teacher is very <span class='innerArray'>green</span>.",
+        "option": [
+            "dumb",
+            "smart",
+            "shy"
+        ],
+        "answer": "smart"
+    },
+    "question22": {
+        "ques": "It is a <span class='innerArray'>soft</span> and sunny day today.",
+        "option": [
+            "bright",
+            "dark",
+            "purple"
+        ],
+        "answer": "bright"
+    },
+    "question23": {
+        "ques": "Riya wore <span class='innerArray'>sweet</span> dress on birthday.",
+        "option": [
+            "pink",
+            "funny",
+            "smart"
+        ],
+        "answer": "pink"
+    },
+    "question24": {
+        "ques": "I ate a <span class='innerArray'>funny</span> apple.",
+        "option": [
+            "juicy",
+            "quick",
+            "shy"
+        ],
+        "answer": "juicy"
+    },
+    "question25": {
+        "ques": "Ajay is <span class='innerArray'>tallest</span> amit.",
+        "option": [
+            "taller than",
+            "the tallest",
+            "as tall"
+        ],
+        "answer": "taller than"
+    },
+    "question26": {
+        "ques": "She is the <span class='innerArray'>fastest</span> girl in her class.",
+        "option": [
+            "superlative",
+            "positive",
+            "comparative"
+        ],
+        "answer": "superlative"
+    },
+    "question27": {
+        "ques": "<span class='innerArray'>History</span> records describe the great reign of emperor ashok.",
+        "option": [
+            "historical",
+            "historian",
+            "historic"
+        ],
+        "answer": "historical"
+    },
+    "question28": {
+        "ques": "My aunt is <span class='innerArray'>young</span> than my uncle.",
+        "option": [
+            "more young",
+            "younger",
+            "the younger"
+        ],
+        "answer": "younger"
+    },
+    "question29": {
+        "ques": "This cake is <span class='innerArray'>sweet</span> than that one.",
+        "option": [
+            "sweeter than",
+            "sweetest",
+            "as sweet as"
+        ],
+        "answer": "sweeter than"
+    },
+    "question30": {
+        "ques": "That bag is <span class='innerArray'>large</span> than my suitcase.",
+        "option": [
+            "more large",
+            "larger",
+            "largest"
+        ],
+        "answer": "larger"
+    },
+    "question31": {
+        "ques": "Mary is <span class='innerArray'>strong</span> ellen.",
+        "option": [
+            "as strong as",
+            "strongest",
+            "stronger than"
+        ],
+        "answer": "stronger than"
+    },
+    "question32": {
+        "ques": "This is a <span class='innerArray'>thin</span> piece of wood than that.",
+        "option": [
+            "more thin",
+            "thiner",
+            "thinner"
+        ],
+        "answer": "thinner"
+    },
+    "question33": {
+        "ques": "The child was <span class='innerArray'>happy</span> living in London than he was living in New York.",
+        "option": [
+            "as happy as",
+            "more happy",
+            "happier"
+        ],
+        "answer": "happier"
+    }
+}
